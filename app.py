@@ -4,10 +4,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 app = Flask(__name__)
 
-with open(file='logistic_regression_model.pkl', mode='rb') as model_file:
+with open(file='model.pkl', mode='rb') as model_file:
     model = pickle.load(model_file)
 
-with open(file='tfidf_vectorizer.pkl', mode='rb') as vectorizer_file:
+with open(file='vectorizer.pkl', mode='rb') as vectorizer_file:
     vectorize = pickle.load(vectorizer_file)
 
 
