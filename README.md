@@ -4,15 +4,15 @@ This project performs sentiment analysis on movie reviews using a Logistic Regre
 
 ## Project Structure
 sentiment-analysis/
-│
-├── data_setup.py # Script to load and preprocess data, and save it to MySQL
-├── model_trainer.py # Script to train the Logistic Regression model
-├── app.py # Flask API for sentiment prediction
-├── requirements.txt # Python dependencies
-├── IMDB.csv # Dataset (reviews and sentiment)
-├── README.md # Project documentation
-├── model.pkl # Trained Logistic Regression model
-└── tfidf_vectorizer.pkl # Trained TF-IDF vectorizer
+
+1. data_setup.py # Script to load and preprocess data, and save it to MySQL
+2. model_trainer.py # Script to train the Logistic Regression model
+3. app.py # Flask API for sentiment prediction
+4. requirements.txt # Python dependencies
+5. IMDB.csv # Dataset (reviews and sentiment)
+6. README.md # Project documentation
+7. model.pkl # Trained Logistic Regression model
+8. tfidf_vectorizer.pkl # Trained TF-IDF vectorizer
 
 ## Prerequisites
 
